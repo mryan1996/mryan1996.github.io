@@ -327,33 +327,33 @@ ul#nav li.current a { color: #11ABB0; }
 
 .python {
   	width: 70%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
 }
 .html {
   	width: 65%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	-moz-animation: html 2s ease;
+  	-webkit-animation: html 2s ease;
 }
 .css {
   	width: 60%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.javascript {
-  	width: 90%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
+.javascript {
+  	width: 90%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
+}
 .cplusplus {
   	width: 65%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: cplusplus 2s ease;
+  	-webkit-animation: cplusplus 2s ease;
 }
 .swift {
   	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: swift 2s ease;
+  	-webkit-animation: swift 2s ease;
 }
 
 @-moz-keyframes photoshop {
