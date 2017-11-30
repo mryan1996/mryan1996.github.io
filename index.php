@@ -424,7 +424,8 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="index.php" method="post" id="contactForm" name="contactForm">
+               <!-- <form action="index.php" method="post" id="contactForm" name="contactForm"> -->
+               <form action="mailto:mryan29@nd.edu" method="post" enctype="text/plain">
 					<fieldset>
 
                   <div> <!-- begin contactname -->
