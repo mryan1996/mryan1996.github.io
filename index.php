@@ -250,7 +250,9 @@
         <!-- <div class="nine columns main-col"> -->
 		<div class="row item">
 			<div class="twelve columns">
-				<h3><span>C++<br>C<br>Javascript<br>Python<br>Bourne Shell</span></h3>
+				<!--<h3><span>C++<br>C<br>Javascript<br>Python<br>Bourne Shell</span></h3>-->
+				<h3>C++</h3>
+				<h3>C</h3>
 			</div>
 		</div>
             
