@@ -1,3 +1,5 @@
+<?php if($_POST["contactMessage"]) { mail("mryan29@nd.edu", $_POST["contactSubject"], $_POST["contactMessage"], "From: "$_POST["contactName"]" at "$_POST["contactEmail"]); } ?>
+
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
@@ -248,8 +250,10 @@
         <!-- <div class="nine columns main-col"> -->
 		<div class="row item">
 			<div class="twelve columns">
-				<h3><span>C++<br>C<br>Javascript<br>Python<br>Bourne Shell</span></h3>
-			</div></div>
+				<!--<h3><span>C++<br>C<br>Javascript<br>Python<br>Bourne Shell</span></h3>-->
+				<h3>C++</h3>
+				<h3>C</h3>
+			</div>
 		</div>
             
 
@@ -422,7 +426,8 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <!-- <form action="index.php" method="post" id="contactForm" name="contactForm"> -->
+               <form action="mailto:mryan29@nd.edu" method="post" enctype="text/plain">
 					<fieldset>
 
                   <div> <!-- begin contactname -->
@@ -515,7 +520,7 @@
 
    <!-- Java Script
    ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
